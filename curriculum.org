@@ -1,0 +1,40 @@
+* McCarthy Posse Intro to Clojure Curriculum
+** Intro
+This document contains a recommended outline for digging into your first few weeks of Clojure. This is by no means an exhaustive or authoritative list of all the great Clojure resources out there, but we've tried to pull together a combination of readings and exercises from various sources that will complement one another and give a decent tour of the fundamentals of the language.
+
+This selection is aimed at Turing students learning Clojure as part of the McCarthy Posse at Turing, and as such we've given a rough timeline for working through the materials over the course of a single 6-week module. The aim here is to spend a module getting comfortable with the basics of the language and then be able to dive into more ambitious self-directed projects in the next module.
+** Resources
+*** Clojure for the Brave and True
+[[http://www.braveclojure.com/clojure-for-the-brave-and-true/][Clojure for the Brave and True]] is a popular beginner's resource for learning Clojure. It takes the format of a full-length book packed with lots of code samples and hands-on tutorials, and is written in a very conversational and approachable tone. Perhaps best of all it's available free online! Our curriculum will pick some specific chapters from the book which give a good overview of Clojure's fundamentals.
+*** Clojure Koans
+The term "Koan" comes from the Buddhist religious tradition where it refers to a short statement or precept designed to provoke contemplation and learning. The idea has been adopted in the programming community where it often refers to a short programming exercise or example intended to concisely demonstrate a point. Programming Koans are often used as a way to teach a new programming language by illustrating its core concepts and building blocks with short pieces of code.
+
+You can find a great list of programming koans for various languages [[http://www.lauradhamilton.com/learn-a-new-programming-language-today-with-koans][here]].
+
+Language Koans can be presented simply as short snippets of code for the reader to ponder over, but they're also frequently implemented more interactively using automated tests (this is the technique introduced by Edge Case's original set of [[http://rubykoans.com/][Ruby Koans]]). The [[https://github.com/functional-koans/clojure-koans][Clojure Koans]] we'll be following use this approach to teach you about some of the language's fundamentals.
+*** Clojure Exercisms
+Exercism is the last tool we'll be relying on during our initial guided exploration. Reading about a programming langugage is all well and good but ultimately the best way to learn is by doing. For each section of the curriculum we'll recommend a handful of exercism exercises that will give you some practice with the concepts you've covered.
+
+If you haven't used Exercism before, you can set it up by following the instructions [[http://cli.exercism.io/][here]].
+
+Once you have that setup, you can fetch new exercisms like so:
+
+#+BEGIN_SRC sh
+exercism fetch clojure <exercise-name>
+# for example:
+exercism fetch clojure anagram
+#+END_SRC
+
+** Setup
+** Recommended Progression
+*** Week 1 and 2
+ * Clojure for the Brave and True: Read [[http://www.braveclojure.com/do-things/][Chapter 3]]
+ * Clojure Koans 1 - 6 (equalities, strings, vectors, maps, sets)
+ * Exercism: Hello World, Anagram, Phone #
+*** Week 3 and 4
+ * Clojure for the Brave and True: Read [[http://www.braveclojure.com/core-functions-in-depth/][Chapter 4]]
+ * Clojure Koans 7 - 9 (functions, conditionals, higher order functions)
+ * Exercism: RNA Transcription, Hamming, Word Count, Nucleotide Count
+*** Week 5 and 6
+ * Clojure for the Brave and True: Read [[http://www.braveclojure.com/functional-programming/][Chapter 5]]
+ * Project: [[https://github.com/gigasquid/wonderland-clojure-katas/tree/master/alphabet-cipher][Alphabet Cipher Clojure Kata]]
