@@ -28,13 +28,23 @@ exercism fetch clojure anagram
 ** Setup
 ** Recommended Progression
 *** Week 1 and 2
+The first 2 weeks is focused on getting comfortable with Clojure fundamentals including the built-in data structures and the basics of defining and working with functions. To get started, work through these things:
+
  * Clojure for the Brave and True: Read [[http://www.braveclojure.com/do-things/][Chapter 3]]
- * Clojure Koans 1 - 6 (equalities, strings, vectors, maps, sets)
- * Exercism: Hello World, Anagram, Phone #
+ * Clojure Koans: Work through Koans 1 - 6 (equalities, strings, vectors, maps, sets)
+ * Exercism: Hello World, Anagram, Phone Number
 *** Week 3 and 4
+Next, we'll start working with more complex data structures and functions. In particular, we want to start getting comfortable with Clojure's collection data structures (especially maps and vectors), and with the numerous sequence processing functions that work with them (Map, Filter, Reduce, Group By, etc etc). Performing complex manipulations using collections and higher-order functions is an area where Clojure really shines, so getting comfortable with these tools is an essential step toward becoming proficient with the language.
+
  * Clojure for the Brave and True: Read [[http://www.braveclojure.com/core-functions-in-depth/][Chapter 4]]
  * Clojure Koans 7 - 9 (functions, conditionals, higher order functions)
  * Exercism: RNA Transcription, Hamming, Word Count, Nucleotide Count
+
 *** Week 5 and 6
+Now that we've taken a tour of some of the language's fundamentals, we're ready to dive into a slightly more sophisticated project. This last 2 weeks focuses on tackling the "Alphabet Cipher" exercise from Carin Meier's [[https://github.com/gigasquid/wonderland-clojure-katas/tree/master/alphabet-cipher][Wonderland Clojure Katas]]. The exercise is more complex than the exercisms we've been working on so far, although not by an insurmountable margin. Solving it will require us to combine several of the tools we've learned about so far.
+
+Additionally, this is a good time to start looking at some of the more common idioms we might encounter in normal Clojure code. A great place to start with this task is the "Threading Macro", which is frequently used to clean up some of the deep function nesting we sometimes encounter in Lisp code.
+
  * Clojure for the Brave and True: Read [[http://www.braveclojure.com/functional-programming/][Chapter 5]]
+ * Clojure Idioms: Threading Macros -- Read [[http://clojure.org/guides/threading_macros][this post]]
  * Project: [[https://github.com/gigasquid/wonderland-clojure-katas/tree/master/alphabet-cipher][Alphabet Cipher Clojure Kata]]
