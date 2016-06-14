@@ -26,6 +26,9 @@ exercism fetch clojure anagram
 #+END_SRC
 
 ** Setup
+*** Option 1 -- Using Atom
+Atom isn't super well known for editing Clojure but it actually works pretty well for this purpose. Check out the packages and instructions included in [[http://worace.works/2016/06/14/good-enough-clojure-setup/][this blog post]] to set up your Atom environment to work with Clojure.
+*** Option 2 -- Using Emacs (Coming One Day)
 ** Recommended Progression
 *** Week 1 and 2
 The first 2 weeks is focused on getting comfortable with Clojure fundamentals including the built-in data structures and the basics of defining and working with functions. To get started, work through these things:
