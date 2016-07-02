@@ -33,7 +33,7 @@ Atom isn't super well known for editing Clojure but it actually works pretty wel
 *** Week 1 and 2
 The first 2 weeks is focused on getting comfortable with Clojure fundamentals including the built-in data structures and the basics of defining and working with functions. To get started, work through these things:
 
- * Clojure for the Brave and True: Read [[http://www.braveclojure.com/do-things/][Chapter 3]]
+ * Clojure for the Brave and True: Read [[http://www.braveclojure.com/do-things/][Chapter 3]]. Use 4clojure exericse numbers [[http://www.4clojure.com/problem/1][1]], [[http://www.4clojure.com/problem/2][2]], [[http://www.4clojure.com/problem/3][3]], [[http://www.4clojure.com/problem/4][4]], [[http://www.4clojure.com/problem/5][5]], [[http://www.4clojure.com/problem/6][6]], [[http://www.4clojure.com/problem/7][7]], [[http://www.4clojure.com/problem/8][8]], [[http://www.4clojure.com/problem/9][9]], [[http://www.4clojure.com/problem/10][10]], [[http://www.4clojure.com/problem/11][11]], [[http://www.4clojure.com/problem/12][12]], [[http://www.4clojure.com/problem/13][13]], [[http://www.4clojure.com/problem/14][14]], [[http://www.4clojure.com/problem/15][15]], [[http://www.4clojure.com/problem/16][16]], [[http://www.4clojure.com/problem/17][17]], [[http://www.4clojure.com/problem/18][18]], [[http://www.4clojure.com/problem/19][19]], [[http://www.4clojure.com/problem/35][35]], and [[http://www.4clojure.com/problem/36][36]] as comprehension checks while reading. 
  * Clojure Koans: Work through Koans 1 - 6 (equalities, strings, vectors, maps, sets)
  * Exercism: Hello World, Anagram, Phone Number
 *** Week 3 and 4
